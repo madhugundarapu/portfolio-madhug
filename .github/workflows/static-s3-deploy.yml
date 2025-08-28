@@ -17,6 +17,5 @@ jobs:
           aws s3 sync ./ s3://portfolio-madhug/ \
           --exclude "*"
           --include "index.html"
-          --include "Error.html"
           
           
