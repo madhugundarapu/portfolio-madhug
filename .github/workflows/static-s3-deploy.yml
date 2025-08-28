@@ -16,6 +16,4 @@ jobs:
           
       - name: Code static code to S3
         run: |
-          aws s3 sync ./ s3://portfolio-madhug/ \
-          --exclude "*" \
-          --include "index.html"
+          aws s3 sync ./ s3://portfolio-madhug/ \   --exclude "*" \   --include "index.html"
